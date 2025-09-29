@@ -1,0 +1,48 @@
+.counter-app {
+    display: flex;
+    /* default flex-direction: row, contents flow is left to right, colmn makes it top to bottom  */
+    flex-direction: column;
+    /* Vertical centering */
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Full viewport height */
+    height: 100vh;
+}
+
+.counter-app button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Increase Button */
+.counter-app .increase-button {
+    background-color: #4caf50; /* green */
+    color: white;
+}
+.counter-app .increase-button:hover {
+    background-color: #45a049;
+}
+
+/* Decrease Button */
+.counter-app .decrease-button {
+    background-color: #f44336; /* red */
+    color: white;
+}
+.counter-app .decrease-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Reset Button */
+.counter-app .reset-button {
+    background-color: #2196f3; /* blue */
+    color: white;
+}
+.counter-app .reset-button:hover {
+    background-color: #1976d2;
+}
